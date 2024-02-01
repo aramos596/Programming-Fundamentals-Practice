@@ -27,3 +27,27 @@ blockchain = [
 # Anthony's KelloggCoin balance is 2650
 
 # 👇👇👇 Your code HERE 👇👇👇
+
+# puts "Ben's KellogCoin balance is #{}"
+
+#puts "#{blockchain[2]}"
+
+puts blockchain[1]["to_user"]
+
+index = 0
+loop do 
+  if index== blockchain.size
+    break
+  end
+  kc=blockchain[index]
+index=index+1
+end
+
+
+#for kc in blockchain
+ # if 
+
+
+#puts blockchain[1]["amount"]
+
+
